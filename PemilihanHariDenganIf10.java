@@ -5,7 +5,7 @@ public class PemilihanHariDenganIf10 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukkan angka antara (1-7): ");
         int input = sc.nextInt();
-        if(input == 1 || input == 2 || input == 3 || input == 4 || input == 5){
+        if(input >= 1 && input <= 5){
             System.out.println("Weekday");
         }else if(input == 6 || input == 7){
             System.out.println("Weekend");
